@@ -1,0 +1,27 @@
+
+First Review filtering. Removing reviews that the user does not exist. Reducing from 206MB to 194MB.
+Second Review filtering. Removing business that are not in the dataset. There were no changes.
+
+Reverse filtering didn’t changed.
+
+FINAL DATASET SIZE:
+     11533 Business
+     216879 Reviews
+     48673 Users
+View-View file created
+Sample code is in HOST25 (/mnt/hd0/arthur/yelp)
+BOOST.cpp is needed!
+installed in HOST25.
+There is a MAKEFILE there. Must do the same for code in Dropbox
+
+CATEGORY CHECKING:
+     508 categories
+     2.43 avg categories/business
+Category building script now list categories and create a categories.dat
+     file DemoLayer1 contains categories info
+
+Interface should be working until operation 5. Will check and finish on monday morning.
+REMEMBER - MAKEFILE on Dropbox
+
+The interface for every operation is running, measuring time.
+There is a bug while building the trees. Will fix tomorrow morning.
